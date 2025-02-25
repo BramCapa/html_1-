@@ -1,85 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
-    <title>Ttablas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
 </head>
 <body>
-    <table border="4px" bordercolor="#">
-        <table border="4px" bordercolor="#5f5f5f">
+    <!-- Tabla principal con borde y ancho completo -->
+    <table border="4px" bordercolor="#5f5f5f" style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
         <tr>
-            <td colspan="2">
-                <table cellpadding="15px">
+            <!-- Fila de encabezado con colspan -->
+            <td colspan="2" style="background-color: #e6f7ff;">
+                <table cellpadding="15px" style="width: 100%;">
                     <tr>
-                        <td><h1>Programacion Para Todos</h1></td>
-                        <td><img src="https://www.armadilloamarillo.com/wp-content/uploads/fondo-de-programacion-web_ok.jpg" width="245" height="130"> </td>
+                        <!-- Título e imagen en el encabezado -->
+                        <td align="center"><h1 style="color: #5f5f5f;">Programacion Para Todos</h1></td>
+                        <td align="center"><img src="https://www.armadilloamarillo.com/wp-content/uploads/fondo-de-programacion-web_ok.jpg" width="300" height="150"></td>
                     </tr>
-
                 </table>
             </td>
         </tr>
         <tr>
-            <td>
-                <table border="1px">
-                    <tr>
-                        <td>INICIO</td>
-                    </tr>
-                    <tr>
-                        <td>LENGUAJES</td>
-                    </tr>                    
-                    <tr>
-                        <td>ASESORIAS</td>
-                    </tr>
-                    <tr>
-                        <td>INFORMACION <br> DE CONTACTO</td>
-                    </tr>
-                    <tr>
-                        <td>TIPS</td>
-                    </tr>
-                    <tr>
-                        <td>AULA VIRTUAL</td>
-                    </tr>
-                    <tr>
-                        <td>INSTALADORES</td>
-                    </tr>                    
+            <!-- Barra lateral con enlaces de navegación -->
+            <td style="background-color: #e6ffe6;">
+                <table border="1px" style="width: 100%; border-collapse: collapse;"><!-- border-collapse: collapse; para que no se vean las lineas de separacion -->
+                    <!-- Elementos de navegación centrados -->
+                    <tr><td align="center" style="padding: 10px 0;">INICIO</td></tr>
+                    <tr><td align="center" style="padding: 10px 0;">LENGUAJES</td></tr>
+                    <tr><td align="center" style="padding: 10px 0;">ASESORIAS</td></tr>
+                    <tr><td align="center" style="padding: 10px 0;">INFORMACION <br> DE CONTACTO</td></tr>
+                    <tr><td align="center" style="padding: 10px 0;">TIPS</td></tr>
+                    <tr><td align="center" style="padding: 10px 0;">AULA VIRTUAL</td></tr>
+                    <tr><td align="center" style="padding: 10px 0;">INSTALADORES</td></tr>
                 </table>
             </td>
-            <td>
-                 <table border="1px" cellpadding="6px">
+            <!-- Área de contenido principal -->
+            <td style="background-color: #fff0f5;">
+                <table border="1px" cellpadding="6px" style="width: 100%; border-collapse: collapse;">
                     <tr>
-                        <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Claro.svg" width="60" height="60" ></td>
-                        <td colspan="2">viva la vida</td>
-                        
+                        <!-- Imagen y contenido de texto -->
+                        <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Claro.svg" width="60" height="60"></td>
+                        <td colspan="2" align="center" style="width: 300px; height: 60px;">Esta página está dedicada a proporcionar recursos y asesorías sobre programación. Aquí encontrarás información sobre diversos lenguajes de programación, tips útiles, y acceso a aulas virtuales y herramientas de instalación.</td>
                     </tr>
                     <tr>
-                      <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpVZfAbZ7OAwit5q8OQ5N5TmG81i76NosbWg&s" width="60" height="60" ></td>
-                      <td><iframe width="220" height="125" src="https://www.youtube.com/embed/Kp4Mvapo5kc" title="Curso de PYTHON desde CERO para PRINCIPIANTES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
-                     <td><p text-align="center">Phyton es un lenguaje muy usado <br>en el mundo de la programacion</p></td>
+                        <!-- Video incrustado y descripción -->
+                        <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpVZfAbZ7OAwit5q8OQ5N5TmG81i76NosbWg&s" width="60" height="60"></td>
+                        <td align="center"><iframe width="220" height="125" src="https://www.youtube.com/embed/Kp4Mvapo5kc" title="Curso de PYTHON desde CERO para PRINCIPIANTES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                        <td align="center"><p>Phyton es un lenguaje muy usado <br>en el mundo de la programacion</p></td>
                     </tr>
                     <tr>
-                      <td><img src="https://lawylegal.com/wp-content/uploads/2021/05/WOM.jpg" width="60" height="60" ></td>
-                      <td><center>Aqui va un audio</center></td>
-                     <td><center>Aunque el JavaScript,<br> tambien es muy usado<br>
-                        <iframe width="100" height="70" src="https://www.youtube.com/embed/b0NHh8RNWK4" title="Aprende Java Ahora! curso completo desde cero para principiantes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </center>
-                 </td>
-                   </tr>
-                   </table>
+                        <!-- Contenido adicional con otro video incrustado -->
+                        <td align="center"><img src="https://lawylegal.com/wp-content/uploads/2021/05/WOM.jpg" width="60" height="60"></td>
+                        <td align="center"><center>Aqui va un audio</center></td>
+                        <td align="center"><center>Aunque el JavaScript,<br> tambien es muy usado<br>
+                            <iframe width="100" height="70" src="https://www.youtube.com/embed/b0NHh8RNWK4" title="Aprende Java Ahora! curso completo desde cero para principiantes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </center></td>
+                    </tr>
+                </table>
             </td>
-            
         </tr>
         <tr>
-            <td colspan="2">
-                <table bgcolor="#9cfcff">
+            <!-- pie de pagina -->
+            <td colspan="2" style="background-color: #ffebcd;">
+                <table style="width: 100%; border-collapse: collapse; background-color: #9cfcff;">
                     <tr>
-                        <td><center>Cucuta<br> Norte de santander<br> Colombia</center></td>
-                        <td><center><br><a href="https://udes.edu.co/">Universidad de Santander</a></center><br><img src="https://udes.edu.co/images/logo/logo.png" width="190" height="60">  </td>
-                        <td>a</td>
+                        <td align="center">Cúcuta<br> Norte de santander<br> Colombia</td>
+                        <td align="center"><br><a href="https://udes.edu.co/" style="color: #5f5f5f; text-decoration: none;">Universidad de Santander</a><br><img src="https://udes.edu.co/images/logo/logo.png" width="230" height="60"></td>
+                        <td align="center">
+                            <!-- iconos redes sociales-->
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" height="30" alt="GitHub">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="30" height="30" alt="Instagram">
+                            <img src="https://www.lowi.es/blog/wp-content/uploads/2023/10/twitter-X-1000x625.jpeg" width="30" height="30" alt="Twitter">
+                        </td>
                     </tr>
                 </table>
             </td>
-            
-            
         </tr>
     </table>
 </body>
